@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: pmiot091181
+  host: pmiot091181
+  disk_quota: 1024M
+  services:
+  - pmiot091181-cloudantNoSQLDB
+  - pmiot091181-iotf-service
